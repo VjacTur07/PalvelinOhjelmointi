@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Palaute</title>
+    <link rel="stylesheet" href="/styles/style.css" />
+  </head>
+  <body>
+    <form action="/palaute" method="POST">
+      <div>
+        <label for="nimi">Nimi:</label>
+        <input type="text" name="name" id="nimi" />
+      </div>
+      <br />
+      <div>
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email" />
+      </div>
+      <br />
+      <div>
+        <label for="palaute">Palaute:</label>
+        <textarea
+          name="feedback"
+          id="palaute"
+          rows="5"
+          cols="30"
+          required
+        ></textarea>
+      </div>
+      <br />
+      <button type="submit">Läheta Palaute</button>
+    </form>
+  </body>
+</html>
