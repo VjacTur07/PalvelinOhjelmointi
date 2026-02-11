@@ -11,7 +11,7 @@ const app = express();
 app.use("/images", express.static(path.join(__dirname, "images")));
 
 // Määritellään vakiot
-const port = 3001;
+const port = 3000;
 const host = "localhost";
 
 // Määritellään polut

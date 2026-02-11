@@ -7,7 +7,7 @@ const __filename = fileURLToPath(import.meta.url); // get the resolved path to t
 const __dirname = path.dirname(__filename); // get the name of the directory
 
 const host = "localhost";
-const port = 3002;
+const port = 3000;
 
 const app = express();
 
